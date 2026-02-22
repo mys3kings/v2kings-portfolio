@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kings · AI + GitHub Course | ₦10k</title>
+  <!-- Font Awesome 6 (free) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #f4f7fc;
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #1a1f2e;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      color: #1f3a6b;
+      margin-bottom: 2rem;
+    }
+
+    .logo span {
+      color: #25D366;
+      font-weight: 600;
+    }
+
+    .sales-card {
+      background: white;
+      border-radius: 40px;
+      padding: 3rem 2.5rem;
+      box-shadow: 0 30px 45px -20px #121b33;
+      border: 1px solid #d6e1f0;
+      margin: 2rem 0;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      letter-spacing: -1px;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+      color: #0b1b3a;
+    }
+
+    .price-tag {
+      display: inline-block;
+      background: #e3eaf5;
+      padding: 0.8rem 2rem;
+      border-radius: 100px;
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: #102a4e;
+      margin: 1.5rem 0 1rem;
+      border: 1px solid #aec3df;
+    }
+
+    .price-tag span {
+      font-size: 1.2rem;
+      font-weight: 400;
+      margin-right: 8px;
+      color: #314d7c;
+    }
+
+    .highlight {
+      background: #e5f0ff;
+      padding: 1.5rem 2rem;
+      border-radius: 32px;
+      margin: 2rem 0;
+      border-left: 6px solid #2f62b3;
+    }
+
+    .course-details {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.8rem;
+      margin: 2.8rem 0;
+    }
+
+    .detail-item {
+      background: #f0f5fe;
+      padding: 1.8rem 1.2rem;
+      border-radius: 28px;
+      text-align: center;
+      border: 1px solid #cdddf5;
+    }
+
+    .detail-item i {
+      font-size: 2.5rem;
+      color: #1f4590;
+      margin-bottom: 1rem;
+    }
+
+    .detail-item h3 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .detail-item p {
+      color: #2c3858;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      font-weight: 700;
+      font-size: 1.8rem;
+      padding: 1.2rem 3.5rem;
+      border-radius: 80px;
+      text-decoration: none;
+      box-shadow: 0 15px 25px -8px #075e54;
+      transition: background 0.2s, transform 0.1s;
+      border: 1px solid #128C7E;
+      margin: 1rem 0 2rem;
+      width: fit-content;
+    }
+
+    .btn i {
+      margin-right: 12px;
+      font-size: 2rem;
+    }
+
+    .btn:hover {
+      background: #128C7E;
+      transform: scale(1.02);
+    }
+
+    .small-note {
+      color: #4a5a7a;
+      font-size: 1rem;
+      margin-top: -0.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .testimonial-placeholder {
+      background: #f9fcff;
+      border-radius: 28px;
+      padding: 2rem;
+      border: 1px dashed #99b5dd;
+      color: #1e3360;
+      margin-top: 2.8rem;
+    }
+
+    .footer {
+      text-align: center;
+      margin: 3rem 0 1rem;
+      color: #3a4b70;
+      border-top: 1px solid #cbd7eb;
+      padding-top: 2rem;
+    }
+
+    .contact-row {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      margin-top: 1rem;
+    }
+
+    .contact-row a, .contact-row span {
+      color: #1d3160;
+      text-decoration: none;
+      font-size: 1.1rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .contact-row a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.4rem;
+      }
+      .price-tag {
+        font-size: 1.8rem;
+      }
+      .btn {
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Logo with your name -->
+    <div class="logo">👑 <span>Kings</span> · AI + GitHub Academy</div>
+
+    <div class="sales-card">
+      <h1>Build Websites with AI + GitHub</h1>
+      <p style="font-size: 1.4rem; color: #2c3f66;">From zero to live website — using ChatGPT & GitHub Pages. No paid hosting. No complex code.</p>
+
+      <!-- price in Naira -->
+      <div class="price-tag">
+        <span>🇳🇬</span> ₦10,000 <span style="font-size: 1rem;">one-time</span>
+      </div>
+      <p class="small-note">✅ Lifetime access · 🇳🇬 Taught by Kings, for Nigerians</p>
+
+      <div class="highlight">
+        <p style="font-size: 1.3rem; font-weight: 500; margin-bottom: 0.6rem;">🎯 You'll learn to:</p>
+        <ul style="list-style-type: none; font-size: 1.2rem;">
+          <li style="margin-bottom: 10px;">✅ Prompt ChatGPT to build real websites</li>
+          <li style="margin-bottom: 10px;">✅ Host everything for free on GitHub Pages</li>
+          <li style="margin-bottom: 10px;">✅ Create a portfolio to attract clients</li>
+          <li style="margin-bottom: 10px;">✅ Build a course sales page (like this one!)</li>
+        </ul>
+      </div>
+
+      <!-- course details grid -->
+      <div class="course-details">
+        <div class="detail-item">
+          <i class="fa-solid fa-robot"></i>
+          <h3>AI-powered</h3>
+          <p>No manual coding. You'll learn to direct AI to build exactly what you want.</p>
+        </div>
+        <div class="detail-item">
+          <i class="fa-brands fa-github"></i>
+          <h3>GitHub Pages</h3>
+          <p>Free hosting. Your own live sites in minutes. No monthly bills.</p>
+        </div>
+        <div class="detail-item">
+          <i class="fa-solid fa-naira-sign"></i>
+          <h3>₦10k only</h3>
+          <p>Affordable for beginners. No hidden costs. Bank transfer / card accepted.</p>
+        </div>
+      </div>
+
+      <!-- WhatsApp Buy Button -->
+      <a href="https://wa.me/message/NBEZSE7HP5UBH1" class="btn" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i> Buy Now · ₦10,000
+      </a>
+      <p class="small-note">🔒 Click to chat on WhatsApp · Bank transfer or card accepted</p>
+
+      <!-- email signup for updates -->
+      <div class="testimonial-placeholder">
+        <p style="font-size: 1.2rem; font-weight: 500;">📬 Get free updates from Kings</p>
+        <p style="margin: 1rem 0;">Drop your email to receive 3 free prompts + be the first to know about new lessons.</p>
+        <!-- email input (you can connect to Beehiiv later) -->
+        <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 1.2rem;">
+          <input type="email" placeholder="your.email@example.com" style="flex: 1 1 200px; padding: 15px 20px; border-radius: 60px; border: 1px solid #b3c8e5; font-size: 1rem;">
+          <button style="background: #1d3d7a; color: white; border: none; padding: 15px 30px; border-radius: 60px; font-weight: 600; cursor: pointer;">Notify me</button>
+        </div>
+        <p style="font-size: 0.9rem; margin-top: 12px;">✉️ No spam. Only course updates.</p>
+      </div>
+    </div>
+
+    <!-- contact section with your real email and GitHub -->
+    <div class="footer">
+      <p>📬 Have questions? Reach out:</p>
+      <div class="contact-row">
+        <a href="mailto:kingsdavidfemi.15@gmail.com"><i class="fa-regular fa-envelope"></i> kingsdavidfemi.15@gmail.com</a>
+        <a href="https://github.com/mys3kingz" target="_blank"><i class="fa-brands fa-github"></i> @mys3kingz</a>
+      </div>
+      <p style="margin-top: 2rem;">👑 Built by Kings · with AI · hosted on GitHub · 2025</p>
+    </div>
+  </div>
+</body>
+</html>
